@@ -1,0 +1,14 @@
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\bin\Debug\netcoreapp3.1\CarritoCompras.exe
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\bin\Debug\netcoreapp3.1\CarritoCompras.deps.json
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\bin\Debug\netcoreapp3.1\CarritoCompras.runtimeconfig.json
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\bin\Debug\netcoreapp3.1\CarritoCompras.runtimeconfig.dev.json
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\bin\Debug\netcoreapp3.1\CarritoCompras.dll
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\bin\Debug\netcoreapp3.1\CarritoCompras.pdb
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\obj\Debug\netcoreapp3.1\CarritoCompras.csproj.AssemblyReference.cache
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\obj\Debug\netcoreapp3.1\CarritoCompras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\obj\Debug\netcoreapp3.1\CarritoCompras.AssemblyInfoInputs.cache
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\obj\Debug\netcoreapp3.1\CarritoCompras.AssemblyInfo.cs
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\obj\Debug\netcoreapp3.1\CarritoCompras.csproj.CoreCompileInputs.cache
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\obj\Debug\netcoreapp3.1\CarritoCompras.dll
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\obj\Debug\netcoreapp3.1\CarritoCompras.pdb
+C:\Users\alan sanjurjo\Desktop\CORONAVIRUS\uni\Primero\set 2\laboratorio\Carrito de compras\CarritoCompras\CarritoCompras\obj\Debug\netcoreapp3.1\CarritoCompras.genruntimeconfig.cache
