@@ -1,0 +1,14 @@
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\bin\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.exe
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\bin\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.deps.json
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\bin\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.runtimeconfig.json
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\bin\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.runtimeconfig.dev.json
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\bin\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.dll
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\bin\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.pdb
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\obj\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.csproj.AssemblyReference.cache
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\obj\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\obj\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.AssemblyInfoInputs.cache
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\obj\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.AssemblyInfo.cs
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\obj\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.csproj.CoreCompileInputs.cache
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\obj\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.dll
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\obj\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.pdb
+C:\Users\alan sanjurjo\source\repos\Clase 14 - Ejercicio 2\Clase 14 - Ejercicio 2\obj\Debug\netcoreapp3.1\Clase 14 - Ejercicio 2.genruntimeconfig.cache
