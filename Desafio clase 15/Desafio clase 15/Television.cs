@@ -13,6 +13,11 @@ namespace Desafio_clase_15
 
         public Television() : base()
         { 
+            PrecioBase = 100;
+            Color = "Blanco";
+            Letra = "F";
+            ConsumoEnergia = "F";
+            Peso = 5;
             resolucion = 20;
             sintonizadorTDT = false;
         }

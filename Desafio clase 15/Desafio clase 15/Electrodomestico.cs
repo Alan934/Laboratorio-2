@@ -25,6 +25,7 @@ namespace Desafio_clase_15
             PrecioBase = 100;
             Color = "Blanco";
             Letra = "F";
+            ConsumoEnergia = "F";
             Peso = 5;
         }
 

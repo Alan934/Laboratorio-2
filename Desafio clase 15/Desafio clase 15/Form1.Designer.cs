@@ -71,6 +71,8 @@ namespace Desafio_clase_15
             this.label23 = new System.Windows.Forms.Label();
             this.radioButtonElectrodomestico = new System.Windows.Forms.RadioButton();
             this.panelResolucion = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.radioButtonSintonizadorNo = new System.Windows.Forms.RadioButton();
             this.label32 = new System.Windows.Forms.Label();
             this.radioButtonSintonizador = new System.Windows.Forms.RadioButton();
             this.label31 = new System.Windows.Forms.Label();
@@ -84,7 +86,9 @@ namespace Desafio_clase_15
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.labelPrecioTotal = new System.Windows.Forms.Label();
             this.labelPrecioElectrodomesticos = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.labelPrecioLavadoras = new System.Windows.Forms.Label();
             this.labelPrecioTelevisores = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -98,10 +102,9 @@ namespace Desafio_clase_15
             this.label24 = new System.Windows.Forms.Label();
             this.txtRemove = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.radioButtonSintonizadorNo = new System.Windows.Forms.RadioButton();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.labelPrecioTotal = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -363,16 +366,16 @@ namespace Desafio_clase_15
             this.groupBox5.Controls.Add(this.label27);
             this.groupBox5.Controls.Add(this.label26);
             this.groupBox5.Controls.Add(this.label25);
-            this.groupBox5.Location = new System.Drawing.Point(49, 93);
+            this.groupBox5.Location = new System.Drawing.Point(30, 93);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(161, 160);
+            this.groupBox5.Size = new System.Drawing.Size(191, 160);
             this.groupBox5.TabIndex = 21;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Datos Generales";
             // 
             // txtConsumo
             // 
-            this.txtConsumo.Location = new System.Drawing.Point(72, 127);
+            this.txtConsumo.Location = new System.Drawing.Point(113, 124);
             this.txtConsumo.Name = "txtConsumo";
             this.txtConsumo.Size = new System.Drawing.Size(72, 22);
             this.txtConsumo.TabIndex = 7;
@@ -403,9 +406,9 @@ namespace Desafio_clase_15
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(6, 127);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(67, 17);
+            this.label28.Size = new System.Drawing.Size(103, 17);
             this.label28.TabIndex = 3;
-            this.label28.Text = "Consumo";
+            this.label28.Text = "Consumo (A-F)";
             // 
             // label27
             // 
@@ -533,6 +536,25 @@ namespace Desafio_clase_15
             this.panelResolucion.Name = "panelResolucion";
             this.panelResolucion.Size = new System.Drawing.Size(161, 107);
             this.panelResolucion.TabIndex = 24;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(24, 84);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(61, 17);
+            this.label33.TabIndex = 28;
+            this.label33.Text = "No tiene";
+            // 
+            // radioButtonSintonizadorNo
+            // 
+            this.radioButtonSintonizadorNo.AutoSize = true;
+            this.radioButtonSintonizadorNo.Location = new System.Drawing.Point(131, 87);
+            this.radioButtonSintonizadorNo.Name = "radioButtonSintonizadorNo";
+            this.radioButtonSintonizadorNo.Size = new System.Drawing.Size(17, 16);
+            this.radioButtonSintonizadorNo.TabIndex = 27;
+            this.radioButtonSintonizadorNo.TabStop = true;
+            this.radioButtonSintonizadorNo.UseVisualStyleBackColor = true;
             // 
             // label32
             // 
@@ -668,19 +690,39 @@ namespace Desafio_clase_15
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Precios";
             // 
+            // labelPrecioTotal
+            // 
+            this.labelPrecioTotal.AutoSize = true;
+            this.labelPrecioTotal.Location = new System.Drawing.Point(111, 109);
+            this.labelPrecioTotal.Name = "labelPrecioTotal";
+            this.labelPrecioTotal.Size = new System.Drawing.Size(16, 17);
+            this.labelPrecioTotal.TabIndex = 36;
+            this.labelPrecioTotal.Text = "0";
+            // 
             // labelPrecioElectrodomesticos
             // 
             this.labelPrecioElectrodomesticos.AutoSize = true;
-            this.labelPrecioElectrodomesticos.Location = new System.Drawing.Point(147, 87);
+            this.labelPrecioElectrodomesticos.Location = new System.Drawing.Point(147, 73);
             this.labelPrecioElectrodomesticos.Name = "labelPrecioElectrodomesticos";
             this.labelPrecioElectrodomesticos.Size = new System.Drawing.Size(16, 17);
             this.labelPrecioElectrodomesticos.TabIndex = 6;
             this.labelPrecioElectrodomesticos.Text = "0";
             // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.SystemColors.Control;
+            this.label38.ForeColor = System.Drawing.Color.Green;
+            this.label38.Location = new System.Drawing.Point(6, 109);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(100, 17);
+            this.label38.TabIndex = 35;
+            this.label38.Text = "Precio Total: $";
+            // 
             // labelPrecioLavadoras
             // 
             this.labelPrecioLavadoras.AutoSize = true;
-            this.labelPrecioLavadoras.Location = new System.Drawing.Point(99, 52);
+            this.labelPrecioLavadoras.Location = new System.Drawing.Point(99, 44);
             this.labelPrecioLavadoras.Name = "labelPrecioLavadoras";
             this.labelPrecioLavadoras.Size = new System.Drawing.Size(16, 17);
             this.labelPrecioLavadoras.TabIndex = 5;
@@ -698,7 +740,7 @@ namespace Desafio_clase_15
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(6, 87);
+            this.label34.Location = new System.Drawing.Point(6, 73);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(135, 17);
             this.label34.TabIndex = 2;
@@ -707,7 +749,7 @@ namespace Desafio_clase_15
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(6, 52);
+            this.label35.Location = new System.Drawing.Point(6, 44);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(87, 17);
             this.label35.TabIndex = 1;
@@ -801,50 +843,41 @@ namespace Desafio_clase_15
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // radioButtonSintonizadorNo
+            // label39
             // 
-            this.radioButtonSintonizadorNo.AutoSize = true;
-            this.radioButtonSintonizadorNo.Location = new System.Drawing.Point(131, 87);
-            this.radioButtonSintonizadorNo.Name = "radioButtonSintonizadorNo";
-            this.radioButtonSintonizadorNo.Size = new System.Drawing.Size(17, 16);
-            this.radioButtonSintonizadorNo.TabIndex = 27;
-            this.radioButtonSintonizadorNo.TabStop = true;
-            this.radioButtonSintonizadorNo.UseVisualStyleBackColor = true;
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(504, 199);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(189, 17);
+            this.label39.TabIndex = 35;
+            this.label39.Text = "que no corresponden, se les";
             // 
-            // label33
+            // label40
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(24, 84);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(61, 17);
-            this.label33.TabIndex = 28;
-            this.label33.Text = "No tiene";
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(505, 177);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(145, 17);
+            this.label40.TabIndex = 36;
+            this.label40.Text = "Textos vacios o datos";
             // 
-            // label38
+            // label41
             // 
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.SystemColors.Control;
-            this.label38.ForeColor = System.Drawing.Color.Green;
-            this.label38.Location = new System.Drawing.Point(6, 117);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(100, 17);
-            this.label38.TabIndex = 35;
-            this.label38.Text = "Precio Total: $";
-            // 
-            // labelPrecioTotal
-            // 
-            this.labelPrecioTotal.AutoSize = true;
-            this.labelPrecioTotal.Location = new System.Drawing.Point(111, 117);
-            this.labelPrecioTotal.Name = "labelPrecioTotal";
-            this.labelPrecioTotal.Size = new System.Drawing.Size(16, 17);
-            this.labelPrecioTotal.TabIndex = 36;
-            this.labelPrecioTotal.Text = "0";
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(504, 221);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(169, 17);
+            this.label41.TabIndex = 37;
+            this.label41.Text = "asigna datos por defecto.";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 450);
+            this.Controls.Add(this.label41);
+            this.Controls.Add(this.label40);
+            this.Controls.Add(this.label39);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtRemove);
             this.Controls.Add(this.label24);
@@ -960,6 +993,9 @@ namespace Desafio_clase_15
         private System.Windows.Forms.RadioButton radioButtonSintonizadorNo;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label labelPrecioTotal;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label41;
     }
 }
 

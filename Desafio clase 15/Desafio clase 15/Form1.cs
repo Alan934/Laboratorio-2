@@ -17,7 +17,7 @@ namespace Desafio_clase_15
         double totalTele = 0;
         double totalLavadora = 0;
         double totalElectrodomestico = 0;
-
+        
 
         public Form1()
         {
@@ -78,78 +78,84 @@ namespace Desafio_clase_15
             {
                 if (radioButtonElectrodomestico.Checked == true)
                 {
-                    Electrodomestico electro = new Electrodomestico(Convert.ToDouble(txtPrecioBase.Text), Convert.ToDouble(txtPeso.Text));
-                    electro.ComprobarConsumoEnergetico(electro.Letra = txtConsumo.Text);
-                    electro.ComprobarColor(txtColor.Text);
-                    labelPrecioElectrodomesticos.Text = electro.PrecioFinal().ToString();
-                    electrodomesticos.Add(electro);
-                    labelProductoCarrito.Text = "Electrodomestico Añadido";
-
-                    if (txtPrecioBase.Text == null && txtPeso.Text == null)
+                    if (String.IsNullOrEmpty(txtPrecioBase.Text) && String.IsNullOrEmpty(txtPeso.Text))
                     {
                         Electrodomestico electroDefecto = new Electrodomestico();
                         electroDefecto.PrecioFinal();
                         labelPrecioElectrodomesticos.Text = electroDefecto.PrecioFinal().ToString();
                         electrodomesticos.Add(electroDefecto);
                         labelProductoCarrito.Text = "Electrodomestico Añadido por defecto";
+                        totalElectrodomestico = totalElectrodomestico + electroDefecto.PrecioFinal();
                     }
-
-                    //totalElectrodomestico = electro.PrecioFinal();
+                    else
+                    {
+                        Electrodomestico electro = new Electrodomestico(Convert.ToDouble(txtPrecioBase.Text), Convert.ToDouble(txtPeso.Text));
+                        electro.ComprobarConsumoEnergetico(electro.Letra = txtConsumo.Text);
+                        electro.ComprobarColor(txtColor.Text);
+                        labelPrecioElectrodomesticos.Text = electro.PrecioFinal().ToString();
+                        electrodomesticos.Add(electro);
+                        labelProductoCarrito.Text = "Electrodomestico Añadido";
+                        totalElectrodomestico = totalElectrodomestico + electro.PrecioFinal();
+                    }
                 }
 
                 if (radioButtonLavadora.Checked == true)
                 {
-                    Lavadora lavadora = new Lavadora(Int32.Parse(txtCarga.Text));
-                    lavadora.PrecioBase = Convert.ToDouble(txtPrecioBase.Text);
-                    lavadora.Peso = Convert.ToDouble(txtPeso.Text);
-                    lavadora.Color = txtColor.Text;
-                    lavadora.ComprobarColor(txtColor.Text);
-                    lavadora.ComprobarConsumoEnergetico(lavadora.Letra = txtConsumo.Text);
-                    lavadora.PrecioFinal();
-                    labelPrecioLavadoras.Text = lavadora.PrecioFinalLavadora().ToString();
-                    electrodomesticos.Add(lavadora);
-                    labelProductoCarrito.Text = "Lavadora Añadida";
-
-                    //totalLavadora = lavadora.PrecioFinalLavadora();
+                    if (String.IsNullOrEmpty(txtPrecioBase.Text) && String.IsNullOrWhiteSpace(txtPeso.Text))
+                    {
+                        Lavadora lavadoraDefecto = new Lavadora();
+                        lavadoraDefecto.PrecioFinal();
+                        lavadoraDefecto.PrecioFinalLavadora();
+                        labelPrecioLavadoras.Text = lavadoraDefecto.PrecioFinalLavadora().ToString();
+                        electrodomesticos.Add(lavadoraDefecto);
+                        labelProductoCarrito.Text = "Lavadora Añadida por defecto";
+                        totalLavadora = totalLavadora + lavadoraDefecto.PrecioFinalLavadora();
+                    }
+                    else
+                    {
+                        Lavadora lavadora = new Lavadora(Int32.Parse(txtCarga.Text));
+                        lavadora.PrecioBase = Convert.ToDouble(txtPrecioBase.Text);
+                        lavadora.Peso = Convert.ToDouble(txtPeso.Text);
+                        lavadora.Color = txtColor.Text;
+                        lavadora.ComprobarColor(txtColor.Text);
+                        lavadora.ComprobarConsumoEnergetico(lavadora.Letra = txtConsumo.Text);
+                        lavadora.PrecioFinal();
+                        labelPrecioLavadoras.Text = lavadora.PrecioFinalLavadora().ToString();
+                        electrodomesticos.Add(lavadora);
+                        labelProductoCarrito.Text = "Lavadora Añadida";
+                        totalLavadora = totalLavadora + lavadora.PrecioFinalLavadora();
+                    }
                 }
 
                 if (radioButtonTelevision.Checked == true)
                 {
-                    Television tele = new Television(Int32.Parse(txtResolucion.Text), radioButtonSintonizador.Checked);
-                    tele.PrecioBase = Convert.ToDouble(txtPrecioBase.Text);
-                    tele.Peso = Convert.ToDouble(txtPeso.Text);
-                    tele.Color = txtColor.Text;
-                    tele.ComprobarColor(txtColor.Text);
-                    tele.ComprobarConsumoEnergetico(tele.Letra = txtConsumo.Text);
-                    tele.PrecioFinal();
-                    labelPrecioTelevisores.Text = tele.PrecioFinalTele().ToString();
-                    electrodomesticos.Add(tele);
-                    labelProductoCarrito.Text = "Televisor Añadido";
-
-                    if (txtResolucion.Text == "" && radioButtonSintonizador.Checked == false)
+                    if (String.IsNullOrEmpty(txtPrecioBase.Text) && String.IsNullOrWhiteSpace(txtPeso.Text))
                     {
                         Television teleDefecto = new Television();
-                        teleDefecto.PrecioBase = Convert.ToDouble(txtPrecioBase.Text);
-                        teleDefecto.Peso = Convert.ToDouble(txtPeso.Text);
-                        teleDefecto.Color = txtColor.Text;
-                        teleDefecto.ComprobarColor(txtColor.Text);
-                        teleDefecto.ComprobarConsumoEnergetico(teleDefecto.Letra = txtConsumo.Text);
                         teleDefecto.PrecioFinal();
+                        teleDefecto.PrecioFinalTele();
                         labelPrecioTelevisores.Text = teleDefecto.PrecioFinalTele().ToString();
                         electrodomesticos.Add(teleDefecto);
                         labelProductoCarrito.Text = "Televisor Añadido por Defecto";
+                        totalTele = totalTele + teleDefecto.PrecioFinalTele();
                     }
-
-                    //totalTele = tele.PrecioFinalTele();
+                    else
+                    {
+                        Television tele = new Television(Int32.Parse(txtResolucion.Text), radioButtonSintonizador.Checked);
+                        tele.PrecioBase = Convert.ToDouble(txtPrecioBase.Text);
+                        tele.Peso = Convert.ToDouble(txtPeso.Text);
+                        tele.Color = txtColor.Text;
+                        tele.ComprobarColor(txtColor.Text);
+                        tele.ComprobarConsumoEnergetico(tele.Letra = txtConsumo.Text);
+                        tele.PrecioFinal();
+                        labelPrecioTelevisores.Text = tele.PrecioFinalTele().ToString();
+                        electrodomesticos.Add(tele);
+                        labelProductoCarrito.Text = "Televisor Añadido";
+                        totalTele = totalTele + tele.PrecioFinalTele();
+                    }
                 }
 
-                //precioTotal = totalLavadora + totalTele + totalElectrodomestico;
-
-                foreach (double i in electrodomesticos)
-                {
-                    precioTotal = precioTotal + i;
-                }
-
+                precioTotal = totalLavadora + totalTele + totalElectrodomestico;
                 labelPrecioTotal.Text = precioTotal.ToString();
                 labelMostrarCantidad.Text = electrodomesticos.Count.ToString();
 
